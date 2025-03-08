@@ -267,3 +267,25 @@
     color: #004a70;
 }
 
+.wp-block-columns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.woocommerce-product-gallery {
+    position: relative;
+    max-width: 500px;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.woocommerce-product-gallery img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 8px;
+}
