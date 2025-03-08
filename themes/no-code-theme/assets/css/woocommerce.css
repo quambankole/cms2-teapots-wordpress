@@ -168,14 +168,14 @@
 
 .logged-in.wp-block-loginout a {
     display: inline-block;
-    padding: 10px 15px;
+    padding: 1rem 5rem;
     background: #333;
     color: white;
     font-weight: bold;
     border-radius: 6px;
     text-decoration: none !important;
     transition: all 0.3s ease-in-out;
-    margin-top: 20px;
+    margin: auto 43%;
 }
 
 
