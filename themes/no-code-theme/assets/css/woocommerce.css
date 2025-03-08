@@ -1,4 +1,4 @@
-/* General styling for the product grid */
+/* Styling for the product */
 .wc-block-product-template__responsive {
     display: flex;
     flex-wrap: wrap;
@@ -76,4 +76,22 @@
 
 .wp-block-woocommerce-product-button span[hidden] {
     display: block;
+}
+
+
+
+
+/* Styling for the account */
+.woocommerce-MyAccount-navigation {
+    background: #A3B5B2; 
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 250px;
+}
+
+.woocommerce-MyAccount-navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
