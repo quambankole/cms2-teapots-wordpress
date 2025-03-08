@@ -62,3 +62,18 @@
 .added_to_cart:hover {
     color: #004a70;
 }
+
+
+.wp-block-woocommerce-product-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 200px; 
+    margin: auto;
+}
+
+.wp-block-woocommerce-product-button span[hidden] {
+    display: block;
+}
