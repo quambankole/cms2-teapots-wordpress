@@ -289,3 +289,55 @@
     transition: transform 0.3s ease-in-out;
     border-radius: 8px;
 }
+
+.woocommerce-product-gallery:hover img {
+    transform: scale(1.05);
+}
+
+.wp-block-post-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.wc-block-components-product-price {
+    font-size: 22px;
+    font-weight: bold;
+    color: #A3B5B2;
+    margin: 10px 0;
+}
+
+.wp-block-post-excerpt {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.wc-block-add-to-cart-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.wc-block-components-quantity-selector {
+    display: flex;
+    align-items: center;
+    background: #f3f3f3;
+    border-radius: 6px;
+    padding: 5px;
+    gap: 8px;
+}
+
+.wc-block-components-quantity-selector__button {
+    background: #A3B5B2;
+    color: white;
+    font-size: 18px;
+    border: none;
+    padding: 5px 12px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background 0.3s ease-in-out;
+}
