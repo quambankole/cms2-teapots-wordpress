@@ -362,3 +362,7 @@
     transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
 }
 
+.single_add_to_cart_button:hover {
+    background: #A3B5B2;
+    transform: scale(1.05);
+}
