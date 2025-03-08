@@ -341,3 +341,24 @@
     border-radius: 6px;
     transition: background 0.3s ease-in-out;
 }
+
+.wc-block-add-to-cart-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+
+.single_add_to_cart_button {
+    background: #333;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
