@@ -119,3 +119,52 @@
     transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
     text-decoration: none;
 }
+
+.woocommerce-MyAccount-navigation li a:hover {
+    background: #121212;
+    color: white;
+}
+
+.woocommerce-MyAccount-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 270px; 
+    max-width: 750px;
+}
+
+.woocommerce-MyAccount-content p {
+    font-size: 16px;
+    color: #444;
+}
+
+.wp-block-woocommerce-customer-account {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+
+.wp-block-woocommerce-customer-account svg {
+    width: 24px;
+    height: 24px;
+    fill: white;
+}
+
+.logged-in.wp-block-loginout a {
+    display: inline-block;
+    padding: 8px 12px;
+    background: #333;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background 0.3s ease-in-out;
+}
+
+
