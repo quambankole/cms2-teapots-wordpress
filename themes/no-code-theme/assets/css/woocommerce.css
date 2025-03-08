@@ -89,6 +89,8 @@
 
 .wp-block-woocommerce-product-button span[hidden] {
     display: block;
+    position: relative;
+    top: -20px;
 }
 
 
