@@ -86,9 +86,11 @@
     background: #f0f2f2; 
     border-radius: 8px;
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     max-width: 250px;
+    font-family: 'Arial', sans-serif;
 }
+
 
 .woocommerce-MyAccount-navigation ul {
     list-style: none;
@@ -100,13 +102,15 @@
     margin: 10px 0;
     padding: 12px;
     border-radius: 6px;
-    transition: background 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
     text-decoration: none !important;
 }
 
+
 .woocommerce-MyAccount-navigation li.is-active {
-    background: #A3B5B2;
+    background: #A3B5B2; 
     color: rgb(8, 8, 8);
+    font-weight: bold;
 }
 
 .woocommerce-MyAccount-navigation li a {
@@ -114,29 +118,34 @@
     color: #333;
     font-weight: bold;
     display: block;
-    padding: 8px 12px;
+    padding: 10px 12px;
     border-radius: 6px;
-    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
-    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none !important; 
 }
 
 .woocommerce-MyAccount-navigation li a:hover {
-    background: #121212;
+    background: #121212; 
     color: white;
+    transform: translateX(5px); 
 }
+
 
 .woocommerce-MyAccount-content {
     background: white;
-    padding: 20px;
+    padding: 25px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     margin-left: 270px; 
     max-width: 750px;
+    line-height: 1.6;
 }
+
 
 .woocommerce-MyAccount-content p {
     font-size: 16px;
     color: #444;
+    margin-bottom: 15px;
 }
 
 .wp-block-woocommerce-customer-account {
@@ -148,6 +157,7 @@
     width: 50px;
     height: 50px;
     margin: auto;
+    transition: all 0.3s ease-in-out;
 }
 
 .wp-block-woocommerce-customer-account svg {
@@ -158,13 +168,45 @@
 
 .logged-in.wp-block-loginout a {
     display: inline-block;
-    padding: 8px 12px;
+    padding: 10px 15px;
     background: #333;
     color: white;
     font-weight: bold;
     border-radius: 6px;
-    text-decoration: none;
-    transition: background 0.3s ease-in-out;
+    text-decoration: none !important;
+    transition: all 0.3s ease-in-out;
+    margin-top: 20px;
 }
 
 
+.logged-in.wp-block-loginout a:hover {
+    background: #A3B5B2;
+    color: black;
+    transform: scale(1.05);
+}
+
+@media (max-width: 1024px) {
+    .woocommerce-MyAccount-navigation {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .woocommerce-MyAccount-content {
+        margin-left: 0;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .woocommerce-MyAccount-navigation ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .woocommerce-MyAccount-navigation li {
+        flex: 1 1 calc(50% - 10px);
+        text-align: center;
+    }
+}
