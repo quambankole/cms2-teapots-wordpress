@@ -1,0 +1,19 @@
+/* General styling for the product grid */
+.wc-block-product-template__responsive {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    gap:3rem;
+}
+
+.wc-block-product {
+    background: #333333;
+    border: 1px solid #2f2f2f;
+    padding: 1px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+

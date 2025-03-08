@@ -26,3 +26,4 @@ function cms2_teapots_enqueue_block_assets() {
 	);
 }
 add_action( 'enqueue_block_assets', 'cms2_teapots_enqueue_block_assets' );
+
