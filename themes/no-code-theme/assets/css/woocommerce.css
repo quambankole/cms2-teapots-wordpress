@@ -93,6 +93,18 @@
     top: -20px;
 }
 
+@media (max-width: 1024px) {
+    .wc-block-product {
+        width: calc(50% - 1.5rem);
+    }
+}
+
+@media (max-width: 768px) {
+    .wc-block-product {
+        width: 100%;
+    }
+}
+
 
 
 
