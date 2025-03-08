@@ -9,12 +9,14 @@
 }
 
 .wc-block-product {
-    background: #333333;
-    border: 1px solid #2f2f2f;
-    padding: 1px;
+    background: #2c2c2c;
+    border: 1px solid #222; 
+    padding: 2px;
+    border-radius: 10px;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    width: auto; 
 }
 
 .wc-block-product:hover {
