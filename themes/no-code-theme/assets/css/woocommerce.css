@@ -83,7 +83,7 @@
 
 /* Styling for the account */
 .woocommerce-MyAccount-navigation {
-    background: #A3B5B2; 
+    background: #f0f2f2; 
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -94,4 +94,28 @@
     list-style: none;
     padding: 0;
     margin: 0;
+}
+
+.woocommerce-MyAccount-navigation li {
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 6px;
+    transition: background 0.3s ease-in-out;
+    text-decoration: none !important;
+}
+
+.woocommerce-MyAccount-navigation li.is-active {
+    background: #A3B5B2;
+    color: rgb(8, 8, 8);
+}
+
+.woocommerce-MyAccount-navigation li a {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    display: block;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+    text-decoration: none;
 }
