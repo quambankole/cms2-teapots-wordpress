@@ -64,6 +64,17 @@
 .added_to_cart:hover {
     color: #004a70;
 }
+.wp-block-post-title a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.wp-block-post-title a:hover {
+    color: #A3B5B2; 
+}
 
 
 .wp-block-woocommerce-product-button {
