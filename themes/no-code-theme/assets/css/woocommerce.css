@@ -28,3 +28,37 @@
     border-radius: 8px;
 }
 
+.wp-block-button__link {
+    display: inline-block;
+    width: auto; 
+    max-width: 100%; 
+    padding: 10px 15px;
+    text-align: center;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 14px;
+    border: 2px solid black;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.wp-block-button__link:hover {
+    background: #A3B5B2;
+    transform: scale(1.05);
+}
+
+
+.added_to_cart {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #101111;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+
+.added_to_cart:hover {
+    color: #004a70;
+}
