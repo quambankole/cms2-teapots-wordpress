@@ -29,6 +29,12 @@
     border-radius: 8px;
 }
 
+bdi{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000000;
+}
+
 .wc-block-components-product-name {
     font-size: 1.2rem;
     font-weight: bold;
