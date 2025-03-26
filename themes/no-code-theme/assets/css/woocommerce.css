@@ -9,10 +9,9 @@
 }
 
 .wc-block-product {
-    background: #2c2c2c;
+    background: none;
     border: 1px solid #222; 
     padding: 2px;
-    border-radius: 10px;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     text-align: center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
@@ -65,7 +64,7 @@
     color: #004a70;
 }
 .wp-block-post-title a {
-    font-size: 18px;
+    font-size: 1.5rem;
     font-weight: bold;
     color: #000000;
     text-decoration: none;
@@ -304,7 +303,7 @@
 .wc-block-components-product-price {
     font-size: 22px;
     font-weight: bold;
-    color: #A3B5B2;
+    color: #111111;
     margin: 10px 0;
 }
 
