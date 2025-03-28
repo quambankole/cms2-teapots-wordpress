@@ -379,3 +379,17 @@ bdi{
     background: #A3B5B2;
     transform: scale(1.05);
 }
+
+
+@media (max-width: 1024px) {
+.wp-block-columns.has-white-background-color .wp-block-column figcaption.wp-element-caption {
+    font-size: 0.9rem;
+    }
+}
+
+
+@media (max-width: 600px) {
+.wp-block-columns.has-white-background-color .wp-block-column figcaption.wp-element-caption {
+    font-size: 0.75rem;
+    }
+}
