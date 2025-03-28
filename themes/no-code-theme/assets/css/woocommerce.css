@@ -391,6 +391,11 @@ bdi{
     align-items: center;
     justify-content: center;
     }
+
+.wp-block-group.is-horizontal figure.is-resized img {
+    max-width: 100% !important; 
+    height: auto;
+    }
     
 }
 
