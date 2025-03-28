@@ -397,6 +397,16 @@ bdi{
     height: auto;
     }
     
+.wp-block-group.is-horizontal figure.is-resized {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    }
+
+.wp-block-group.has-global-padding.is-layout-constrained {
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+    }
+
 }
 
 
@@ -404,4 +414,16 @@ bdi{
 .wp-block-columns.has-white-background-color .wp-block-column figcaption.wp-element-caption {
     font-size: 0.75rem;
     }
+
+.wp-block-group.has-global-padding.is-layout-constrained h2 {
+    font-size: 1.2rem;
+}
+.wp-block-group.has-global-padding.is-layout-constrained p {
+    font-size: 1rem;
+}
+
+.wp-block-group.has-global-padding.is-layout-constrained {
+    padding-right: 0.75rem !important;
+    padding-left: 0.75rem !important;
+}
 }
